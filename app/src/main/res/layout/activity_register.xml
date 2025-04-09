@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register">
+
+
+    <ImageView
+        android:id="@+id/roundImageView"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/round2" />
+
+    <ImageView
+        android:id="@+id/personIcon"
+        android:layout_width="88dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/person" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/helloTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="20dp"
+            android:text="Hello User"
+            android:textColor="#040404"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/hello1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:text="Please register yourself as DriverHub Driver"
+            android:textColor="#AE9797"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/border_button"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/indiancodeTV"
+                android:layout_width="5dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="16dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="+91"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+            <EditText
+
+                android:id="@+id/phonenumberET"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="8dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="start"
+                android:inputType="number"
+                android:textColor="#000000"
+                android:textColorHint="#A1A1A1"
+                android:textSize="26sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/registerBtn"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="250dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/square_button"
+            android:gravity="center"
+            android:text="Register as a Driver"
+            android:textAllCaps="false"
+            android:textSize="24sp"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

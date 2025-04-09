@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "545588097335",
+    "project_id": "drivehub-driver",
+    "storage_bucket": "drivehub-driver.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:545588097335:android:5b5334eba248855b4beab2",
+        "android_client_info": {
+          "package_name": "com.example.drivehubdriver"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC3IwVUHy2cgf7y5yPkj5BCvMx-gXGdOFk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
